@@ -17,7 +17,18 @@
 
 - Python 3.x
 - 所需依赖已列在各脚本中（建议使用虚拟环境 `venv`）
-- 需要在 `.env` 文件中配置 `OPENAI_API_KEY`
+
+## 配置环境变量
+
+本项目需要配置 `OPENAI_API_KEY` 和 `SCIVERSE_API_KEY`。请参考 `.env.example` 文件在项目根目录创建一个名为 `.env` 的文件，并将您的 API 密钥填入其中。
+
+例如，您的 `.env` 文件内容可能如下：
+
+```dotenv
+OPENAI_API_KEY=sk-xxxxYou
+rOpenAIKeyxxxx
+SCIVERSE_API_KEY=your_sciverse_api_key_here
+```
 
 ## 使用说明
 
