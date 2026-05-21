@@ -25,9 +25,9 @@
 例如，您的 `.env` 文件内容可能如下：
 
 ```dotenv
-OPENAI_API_KEY=sk-xxxxYou
-rOpenAIKeyxxxx
+OPENAI_API_KEY=your_openai_api_key_here
 SCIVERSE_API_KEY=your_sciverse_api_key_here
+OPENAI_API_BASE=http://your_openai_api_base_here/v1
 ```
 
 ## 使用说明
